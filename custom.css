@@ -1,6 +1,6 @@
 :root {
     --bs-primary: #000000;
-    --bs-secondary: #6c757d;
+    --bs-secondary: #505050;
     --bs-body-bg: #ffffff;
     --bs-body-color: #1a1a1a;
 }
@@ -38,6 +38,17 @@
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+  
+/* content section */
+.middle-section {
+    width: 80vw;            /* 80% of viewport width */
+    max-width: 1200px;      /* optional cap so it never gets too wide */
+    margin: 3.5rem auto;      /* vertical spacing + horizontal centering */
+    padding: 2rem 1rem;     /* some breathing room inside */
+    background-color: #fff; /* or whatever bg you prefer */
+    color: #000;            /* your text color */
+    border-radius: 8px;     /* optional rounded corners */
 }
   
 
