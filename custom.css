@@ -1,0 +1,49 @@
+:root {
+    --bs-primary: #000000;
+    --bs-secondary: #6c757d;
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #1a1a1a;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar adjustments */
+.navbar {
+    background-color: #000000 !important;
+    padding: 2vh 6vw;
+    font-size: large;
+}
+
+.navbar-brand {
+    color: var(--bs-body-bg) !important;
+    font-size: larger;
+}
+
+.nav-link {
+    color: var(--bs-body-bg) !important;
+    margin-left: 2vw;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+  
+
+/* footer */
+footer {
+    background-color: #000000 !important;
+    padding: 3vh 6vw 6vh 6vw;
+    font-size: large;
+}
