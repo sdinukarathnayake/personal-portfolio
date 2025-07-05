@@ -3,29 +3,66 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <title>My Portfolio</title>
-        <link rel="stylesheet" href="index.css" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="custom.css" />
     </head>
 
     <body>
-        <header>
-            <h1>Dinuka Rathnayake</h1>
-            <p>Software Engineer | Portfolio</p>
-        </header>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <strong>Dinuka Rathnayake</strong>
+                </a>
 
-        <main>
-            <section class="project-card">
-                <h2>LAN Chat App</h2>
-                <p>
-                    Chat application for LAN users using Spring Boot and
-                    WebSockets.
-                </p>
-            </section>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <section class="project-card">
-                <h2>SerendipSpices</h2>
-                <p>A MERN stack e-commerce platform for Sri Lankan spices.</p>
-            </section>
-        </main>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container d-flex justify-content-between align-items-center">
+                <span class="text-white">© 2025 Dinuka Rathnayake</span>
+
+                <div>
+                    <a href="https://github.com/sdinukarathnayake" class="text-white me-4 text-decoration-none">
+                        <i class="bi bi-github fs-2"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sdinukarathnayake/" class="text-white text-decoration-none">
+                        <i class="bi bi-linkedin fs-2"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- bootstrap script -->        
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"
+        ></script>
     </body>
 </html>
