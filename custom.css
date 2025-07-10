@@ -5,14 +5,8 @@
     --bs-body-color: #1a1a1a;
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-}
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
+body {
+    overflow-x: hidden;
 }
 
 /* navbar adjustments */
@@ -42,15 +36,95 @@
   
 /* content section */
 .middle-section {
-    width: 80vw;            /* 80% of viewport width */
-    max-width: 1200px;      /* optional cap so it never gets too wide */
-    margin: 3.5rem auto;      /* vertical spacing + horizontal centering */
-    padding: 2rem 1rem;     /* some breathing room inside */
-    background-color: #fff; /* or whatever bg you prefer */
-    color: #000;            /* your text color */
-    border-radius: 8px;     /* optional rounded corners */
+    width: 90vw;
+    max-width: 1200px;
+    margin: 6rem auto;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
 }
-  
+
+/* hero section */
+.hero-section {
+    position: relative;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #00201a;
+}
+
+.hero-text p {
+    margin: 1.5rem 0 2rem;
+    color: #505050;
+    line-height: 1.5;
+}
+
+.hero-socials {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.social-btn.linkedin {
+    background: #003cb5;
+}
+
+.social-btn.github {
+    background: #00201a;
+}
+
+.img-fluid {
+    width: 80%;
+}
+
+.hero-image {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 992px) {
+    .hero-section .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-socials {
+        justify-content: center;
+    }
+
+    .hero-section {
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-text h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+}
+
 
 /* footer */
 footer {
