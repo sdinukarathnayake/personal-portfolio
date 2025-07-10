@@ -71,9 +71,9 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    width: 5.5rem;
+    height: 2.7rem;
+    border-radius: 10px;
     color: white;
 }
 
@@ -85,14 +85,10 @@ body {
     background: #00201a;
 }
 
-.img-fluid {
-    width: 80%;
-}
-
 .hero-image {
+    width: 80%;
     max-width: 300px;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 45%;
 }
 
 @media (min-width: 992px) {
@@ -119,6 +115,10 @@ body {
 }
 
 @media (max-width: 320px) {
+    .hero-image {
+        width: 95%;
+    }
+    
     .hero-text h1 {
         font-size: 1.75rem;
         line-height: 1.2;
