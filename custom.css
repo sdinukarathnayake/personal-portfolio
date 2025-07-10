@@ -89,7 +89,7 @@ body {
     width: 80%;
 }
 
-.hero-image-wrapper .hero-image {
+.hero-image {
     max-width: 300px;
     border-radius: 50%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
