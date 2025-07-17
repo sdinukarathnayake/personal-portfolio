@@ -1,0 +1,33 @@
+.banner {
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ffff00;
+}
+
+.banner__content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.banner__item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.banner__item img {
+  display: block;
+  margin: 0 auto;
+  max-height: 50px;
+}
+
+.banner__item span {
+  display: block;
+  margin-top: 0.5em;
+}
