@@ -12,9 +12,26 @@
 }
 
 
-.middle-section {
-    box-sizing: border-box; 
+.middle-section-top {
     width: 90vw;
     max-width: 1200px;
-    margin: 6rem auto;
+    margin: 11vh auto 0 auto !important;
+}
+
+.middle-section-bottom {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto 12vh auto !important;
+}
+
+.home-section-title {
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .middle-section-bottom {
+        margin: auto !important;
+    }
 }
