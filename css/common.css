@@ -6,7 +6,7 @@
     --dark-grey-2: #ADB5BD;
     --dark-grey-3: #CED4DA;
     --light-grey-1: #DEE2E6;
-    --light-grey-2: #E9ECEF;
+    --light-grey-2: #f0f0f0;
     --light-grey-3: #F8F9FA;
     --white: #ffffff;
 }
@@ -28,6 +28,10 @@
     margin: 3rem 0 2rem 0;
     text-align: center;
     font-size: 28px;
+}
+
+.end-line {
+    border: 1px solid white;
 }
 
 @media (max-width: 768px) {
