@@ -1,17 +1,17 @@
 footer {
-    padding: 3vh 6vw 4vh 6vw !important;
-    font-size: large !important;
+    padding: 3vh 6vw 4vh 6vw;
+    font-size: large;
 }
 
 @media (max-width: 768px) {
     footer {
-        position: static !important;
+        position: static;
     }
 }
 
 @media (max-width: 480px) {
     footer {
-        font-size: medium !important;
-        padding: 3vh 4vw 6vh 4vw !important;
+        font-size: medium;
+        padding: 3vh 4vw 6vh 4vw;
     }
 }

@@ -10,57 +10,50 @@
     font-size: 28px;
 }
 
-.project-cards {
+.certifications-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 1.5rem;
     row-gap: 2rem;
     margin: auto;
     box-sizing: border-box;
 }
 
-.project-card {
+.certifications-card {
     padding: 15px 10px;
     border-radius: 20px;
     background-color: #f0f0f0;
 }
 
-.project-card-title {
-    font-size: 1.4rem;
-    text-align: center;
-    color: #343A40;
-    margin-bottom: 1rem;
-}
-
-.project-card-image {
+.certifications-card-image {
     width: 100%;
     height: auto;
     object-fit: cover;
     margin-bottom: 1rem;
 }
 
-.project-card-description {
+.certifications-card-title {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #343A40;
+    margin-bottom: 0.5rem;
+}
+
+.certifications-card-institute {
     font-size: 0.95rem;
     text-align: center;
     color: #6C757D;
 }
 
-.project-tech-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5rem;
-    padding: 0 1rem 1rem 1rem;
-}
-
-.project-card-buttons {    
+.certifications-card-buttons {    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin: 0 0.5rem;
+    margin: 0 2rem;
 }
 
-.project-card-button-1 {
-    height: 3rem;
+.certifications-card-button-1 {
+    height: 2.5rem;
     border-radius: 20px;
     background-color: #343A40;
     color: white;
@@ -70,8 +63,8 @@
     align-content: center;
 }
 
-.project-card-button-2 {
-    height: 3rem;
+.certifications-card-button-2 {
+    height: 2.5rem;
     border-radius: 20px;
     background-color: #CED4DA;
     color: #343A40;
@@ -81,7 +74,7 @@
     align-content: center;
 }
 
-.project-view-all {
+.certifications-view-all {
     display: block;
     width: 20%;
     margin: 3rem auto 3rem auto;
@@ -91,7 +84,7 @@
     text-align: center;
 }
 
-.project-view-all-text {
+.certifications-view-all-text {
     color: white;    
     text-decoration: none;
 }

@@ -1,341 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>My Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/navbar.css" />
-        <link rel="stylesheet" href="css/projects.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <body>
-        <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <strong>DR</strong>
-                </a>
-    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
-                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active fs-6" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-6" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-6" href="certifications.html">Certifications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-6" href="about.html">About me</a>
-                        </li>
-                    </ul>
+    <title>Dinuka Rathnayake - Projects</title>
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <strong>DR</strong>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-6" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="https://www.linkedin.com/in/sdinukarathnayake">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="middle-section">
+        <!-- Projects -->
+        <h2 class="section-title"> My Projects </h2>
+
+        <section class="project-cards">
+
+            <!-- Project - World Explorer -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                </div>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
                 </div>
             </div>
-        </nav>          
-        
-        <section class="middle-section">
-            <!-- Projects -->
-            <h2 class="section-title"> Feature Projects </h2>
-        
-            <section class="project-cards">
-        
-                <!-- Project - World Explorer -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+
+            <!-- Project - Attorney Management System -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
                     </div>
-                </div>
-        
-                <!-- Project - Attorney Management System -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
-                    </div>
-                </div>
-        
-                <!-- Project - Big Bite -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                    </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
-                    </div>
-                </div>
-        
-                <!-- Project - Movie Info -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                    </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - Big Bite -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - World Explorer -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - Attorney Management System -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - Big Bite -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
 
-                <!-- Project - -->
-                <div class="project-card">
-                    <div class="project-card-logos">
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
-                        <div class="project-card-logo">x</div>
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
                     </div>
-        
-                    <hr class="project-card-hr">
-        
-                    <img class="project-card-image" src="images/projects/ams-1.jpg" />
-        
-                    <h2 class="project-card-title">Project Name</h2>
-        
-                    <p class="project-card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro fuga
-                        sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
-                    </p>
-        
-                    <div class="project-card-buttons">
-                        <a class="project-card-button-1">Live Demo</a>
-                        <a class="project-card-button-2">View More</a>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
                     </div>
                 </div>
-            
-            </section>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - World Explorer -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                </div>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - Attorney Management System -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                </div>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <!-- Project - Big Bite -->
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                </div>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-card-title">Project Name</h2>
+
+                <img class="project-card-image" src="./images/projects/ams-1.jpg" />
+
+                <p class="project-card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non incidunt, ipsum rem maxime in porro
+                    fuga
+                    sit quas ad. Fuga architecto veritatis eligendi dolore ipsam veniam dolor repudiandae eum quas.
+                </p>
+
+                <div class="project-tech-section">
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".NET">
+                    </div>
+                    <div class="banner-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                </div>
+
+                <div class="project-card-buttons">
+                    <a class="project-card-button-1">Live Demo</a>
+                    <a class="project-card-button-2">View More</a>
+                </div>
+            </div>
         </section>
 
-    
-        <!-- Footer -->
-        <footer class="bg-dark text-white fixed-bottom">
-            <div class="d-flex flex-nowrap justify-content-between align-items-center">
-                <span class="text-white m-0 p-0 small">© 2025 Dinuka Rathnayake</span>
-    
-                <div class="d-flex align-items-center">
-                    <a href="https://github.com/sdinukarathnayake" class="text-white text-decoration-none me-4">
-                        <i class="bi bi-github fs-5"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/sdinukarathnayake/" class="text-white text-decoration-none">
-                        <i class="bi bi-linkedin fs-5"></i>
-                    </a>
-                </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="d-flex flex-nowrap justify-content-between align-items-center">
+            <span class="text-white m-0 p-0 small">© 2025 Dinuka Rathnayake</span>
+
+            <div class="d-flex align-items-center">
+                <a href="https://github.com/sdinukarathnayake" class="text-white text-decoration-none me-3">
+                    <i class="bi bi-github fs-5"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sdinukarathnayake/" class="text-white text-decoration-none">
+                    <i class="bi bi-linkedin fs-5"></i>
+                </a>
             </div>
-        </footer>
-    
-        <!-- bootstrap script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-            crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>

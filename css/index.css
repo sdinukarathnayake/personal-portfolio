@@ -1,11 +1,17 @@
-.middle-section {
+.middle-section-top {
     width: 90vw;
     max-width: 1200px;
-    margin: 0 auto 5vh auto !important;
+    margin: 11vh auto 0 auto !important;
+}
+
+.middle-section-bottom {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto 12vh auto !important;
 }
 
 .section-title {
-    margin: 2rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
     text-align: center;
     font-size: 28px;
 }
@@ -13,43 +19,35 @@
 .project-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 2rem;
+    gap: 1.5rem;
     margin: auto;
     box-sizing: border-box;
 }
 
 .project-card {
-    padding: 15px 10px;
+    padding: 20px 10px;
     border-radius: 20px;
     background-color: #f0f0f0;
-}
-
-.project-card-title {
-    font-size: 1.4rem;
-    text-align: center;
-    color: #343A40;
-    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-card-image {
     width: 100%;
     height: auto;
     object-fit: cover;
-    margin-bottom: 1rem;
+}
+
+.project-card-title {
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #343A40;
 }
 
 .project-card-description {
     font-size: 0.95rem;
     text-align: center;
     color: #6C757D;
-}
-
-.project-tech-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5rem;
-    padding: 0 1rem 1rem 1rem;
 }
 
 .project-card-buttons {    
